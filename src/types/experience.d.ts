@@ -8,10 +8,10 @@ export interface IExperienceItem {
 }
 
 export interface IEducationItem {
-  type: 'academic' | 'certification' | 'diploma';
-  title: string;
-  institution: string;
-  location: string;
-  period: string;
-  details: string[];
+  type: 'academic' | 'certification' | 'diploma'
+  title: string
+  institution: string
+  location: string
+  period: string
+  details: string[]
 }

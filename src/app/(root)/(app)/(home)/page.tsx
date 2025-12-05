@@ -1,6 +1,6 @@
 import { SOCIALS } from '@/constants/common'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { MdOutlineMail } from "react-icons/md";
+import { MdOutlineMail } from 'react-icons/md'
 
 export const dynamic = 'force-dynamic'
 
@@ -22,7 +22,13 @@ export default function HomePage() {
           </span>
         </h1>
         <div className="absolute -bottom-1/4 mx-auto flex">
-          <a href={`mailto:${SOCIALS.MA}`} aria-label="Email" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
+          <a
+            href={`mailto:${SOCIALS.MA}`}
+            aria-label="Email"
+            target="_blank"
+            rel="noopener"
+            className="mx-2 block p-2 opacity-80 hover:opacity-95"
+          >
             <MdOutlineMail size={20} />
           </a>
           <a href={SOCIALS.GH} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">

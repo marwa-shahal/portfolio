@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     openGraph: {
       title: post.metadata.title,
       description: post.metadata.summary,
-      url: `/blog/${post.slug}`, 
+      url: `/blog/${post.slug}`,
       images: `/og?title=${post.metadata.title}`,
     },
     alternates: {

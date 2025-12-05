@@ -1,5 +1,5 @@
 import { IEducationItem, IExperienceItem } from '@/types/experience'
-import { FiBookOpen, FiClipboard, FiGlobe, FiHome, FiMail, FiUser, FiBriefcase } from 'react-icons/fi'
+import { FiBookOpen, FiBriefcase, FiClipboard, FiGlobe, FiHome, FiMail, FiUser } from 'react-icons/fi'
 
 export const HOST = process.env.NEXT_PUBLIC_HOST || 'http://localhost:3000'
 
@@ -112,8 +112,6 @@ export const EXPERIENCE_DATA: IExperienceItem[] = [
   },
 ]
 
-
-
 export const EDUCATION_DATA: IEducationItem[] = [
   {
     type: 'certification',
@@ -179,4 +177,4 @@ export const EDUCATION_DATA: IEducationItem[] = [
     period: 'Sep 2018',
     details: ['Completed 75 training hours in educational methods.'],
   },
-];
+]

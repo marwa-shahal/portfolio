@@ -1,9 +1,9 @@
 import { FORMSPREE_KEY, SOCIALS } from '@/constants/common'
 import type { Metadata } from 'next'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdOutlineMail } from 'react-icons/md'
 import PageTitle from '../components/PageTitle'
 import ContactForm from './components/ContactForm'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { MdOutlineMail } from "react-icons/md";
 
 export const dynamic = 'force-dynamic'
 
@@ -26,9 +26,7 @@ export default function ContactPage() {
         <div className="mb-4 w-full text-center lg:w-[480px] lg:text-left">
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">ADDRESS</h2>
-            <p className="text-sm leading-5">
-              Tripoli, Lebanon.
-            </p>
+            <p className="text-sm leading-5">Tripoli, Lebanon.</p>
           </div>
           <div className="mb-8">
             <h2 className="mb-3 text-lg font-bold">EMAIL ADDRESS</h2>
@@ -39,15 +37,32 @@ export default function ContactPage() {
             </p>
           </div>
           <div className="mb-8">
-            
-            <div className='flex'>
-              <a href={`mailto:${SOCIALS.MA}`} aria-label="Email" target="_blank" rel="noopener" className="mr-2 p-2 pl-0 block opacity-80 hover:opacity-95">
+            <div className="flex">
+              <a
+                href={`mailto:${SOCIALS.MA}`}
+                aria-label="Email"
+                target="_blank"
+                rel="noopener"
+                className="mr-2 p-2 pl-0 block opacity-80 hover:opacity-95"
+              >
                 <MdOutlineMail size={20} />
               </a>
-              <a href={SOCIALS.GH} aria-label="GitHub" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
+              <a
+                href={SOCIALS.GH}
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener"
+                className="mx-2 block p-2 opacity-80 hover:opacity-95"
+              >
                 <FaGithub size={20} />
               </a>
-              <a href={SOCIALS.IN} aria-label="Linkedin" target="_blank" rel="noopener" className="mx-2 block p-2 opacity-80 hover:opacity-95">
+              <a
+                href={SOCIALS.IN}
+                aria-label="Linkedin"
+                target="_blank"
+                rel="noopener"
+                className="mx-2 block p-2 opacity-80 hover:opacity-95"
+              >
                 <FaLinkedin size={20} />
               </a>
             </div>

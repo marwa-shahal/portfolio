@@ -1,4 +1,3 @@
-import noise from '@/assets/noise.gif'
 import { HOST } from '@/constants/common'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -36,11 +35,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <i
           aria-hidden="true"
           className="pointer-events-none fixed bottom-0 left-0 right-0 top-0 z-[150] hidden h-full w-full opacity-5 md:block"
-      
         />
-        <Providers>
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
         <Analytics />
         <SpeedInsights />
       </body>

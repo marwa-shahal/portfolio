@@ -19,12 +19,25 @@ export const metadata: Metadata = {
 }
 
 const CORE_TECHNOLOGIES = [
-  'Node.js', 'Express', 'JavaScript', 'TypeScript', 'Python',
-  'Angular', 'React', 'Next.js',
-  'MySQL', 'MongoDB', 'Firebase',
-  'Tailwind CSS', 'Bootstrap', 'Material UI',
-  'Git', 'Gitlab', 'Jira', 'Agile/Scrum'
-];
+  'Node.js',
+  'Express',
+  'JavaScript',
+  'TypeScript',
+  'Python',
+  'Angular',
+  'React',
+  'Next.js',
+  'MySQL',
+  'MongoDB',
+  'Firebase',
+  'Tailwind CSS',
+  'Bootstrap',
+  'Material UI',
+  'Git',
+  'Gitlab',
+  'Jira',
+  'Agile/Scrum',
+]
 
 export default function AboutPage() {
   return (
@@ -38,13 +51,19 @@ export default function AboutPage() {
           <h2 className="mb-2 text-xl font-bold">I’m Marwa Al Shahal</h2>
           <div className="mb-6">
             <p className="mb-1">
-              A passionate Full Stack Web Developer from Tripoli, Lebanon who loves building purposeful digital experiences that make people’s lives easier. I enjoy crafting clean interfaces, designing scalable backend systems, and bringing clarity to every stage of a product’s lifecycle.
+              A passionate Full Stack Web Developer from Tripoli, Lebanon who loves building purposeful digital experiences that make
+              people’s lives easier. I enjoy crafting clean interfaces, designing scalable backend systems, and bringing clarity to every
+              stage of a product’s lifecycle.
             </p>
             <p className="mb-1">
-              My background in teaching and coding education shaped the way I think and work. I communicate clearly, stay organized, and understand how to guide people through complex ideas. These strengths naturally inspire my growing path toward Project Management, where technology, problem-solving, and people all come together.
+              My background in teaching and coding education shaped the way I think and work. I communicate clearly, stay organized, and
+              understand how to guide people through complex ideas. These strengths naturally inspire my growing path toward Project
+              Management, where technology, problem-solving, and people all come together.
             </p>
             <p className="mb-1">
-              Today, I’m focused on becoming a developer who not only writes solid code but also contributes to planning, coordination, and delivering products that truly matter. I thrive in environments where collaboration, empathy, and strong processes lead to meaningful results.
+              Today, I’m focused on becoming a developer who not only writes solid code but also contributes to planning, coordination, and
+              delivering products that truly matter. I thrive in environments where collaboration, empathy, and strong processes lead to
+              meaningful results.
             </p>
           </div>
           {/* <h2 className="mb-2 text-xl font-bold">Tech i love</h2>
@@ -54,7 +73,6 @@ export default function AboutPage() {
           <h2 className="mb-4 text-xl font-bold">Key Technologies & Skills</h2>
           <div className="mb-6 flex flex-wrap gap-2">
             {CORE_TECHNOLOGIES.map((tech) => (
-
               <span
                 key={tech}
                 className="inline-block px-3 py-1 text-sm font-semibold border-solid border-black border-2

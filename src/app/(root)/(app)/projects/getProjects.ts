@@ -5,7 +5,7 @@ import 'server-only'
 const username = process.env.GH_USERNAME || 'marwa-shahal'
 const apiKey = process.env.GH_API_KEY
 
-const repositoriesUrl = `https://api.github.com/users/${username}/repos?sort=updated`//`https://api.github.com/users/${username}/repos?sort=updated&visibility=public&affiliation=owner`
+const repositoriesUrl = `https://api.github.com/users/${username}/repos?sort=updated` //`https://api.github.com/users/${username}/repos?sort=updated&visibility=public&affiliation=owner`
 
 const fetchOptions: RequestInit = {
   method: 'GET',

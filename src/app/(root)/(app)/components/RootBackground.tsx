@@ -4,7 +4,6 @@ import Image from 'next/image'
 import React, { memo } from 'react'
 
 const RootBackground: React.FC = () => {
-
   return (
     <>
       <div className="fixed left-0 top-0 h-full w-full overflow-hidden bg-white dark:bg-black">

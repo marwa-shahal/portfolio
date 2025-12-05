@@ -38,9 +38,7 @@ const ContactForm: React.FC<{ formspreeKey: string }> = ({ formspreeKey }) => {
 
       {/* Formspree global error */}
       {formErrors?.[0]?.message && (
-        <div className="border-l-4 border-red-500 bg-red-500/10 px-3 py-5 text-lg font-bold backdrop-blur-lg">
-          {formErrors[0].message}
-        </div>
+        <div className="border-l-4 border-red-500 bg-red-500/10 px-3 py-5 text-lg font-bold backdrop-blur-lg">{formErrors[0].message}</div>
       )}
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
