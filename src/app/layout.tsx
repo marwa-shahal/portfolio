@@ -5,7 +5,6 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
 import Providers from './Providers'
-import CursorFollower from './components/CursorFollower'
 import './globals.css'
 
 const lato = Lato({
